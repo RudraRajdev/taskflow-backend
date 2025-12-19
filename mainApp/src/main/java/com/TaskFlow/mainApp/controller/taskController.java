@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "https://taskflow-frontend-nine-lilac.vercel.app")
+@CrossOrigin(origins = "https://taskflow-frontend-nine-lilac.vercel.app/")
 @RequestMapping("/task")
 public class taskController {
     taskService taskService;
